@@ -1,0 +1,17 @@
+{
+    "hello": {
+      "scope": "javascript,html",
+      "prefix": "hello",
+      "body": "$BLOCK_COMMENT_START Hello World $BLOCK_COMMENT_END"
+    },
+    {
+        "key": "cmd+k 1",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus",
+        "args": {
+          "snippet": "console.log($1)$0"
+        }
+      }
+
+  }
+  
